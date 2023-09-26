@@ -1,0 +1,32 @@
+.avaliacoesCardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1em 5em;
+}
+.avaliacaoCard {
+  width: 13em;
+  background-color: #d9d9d961;
+  flex: 0 0 calc(25% - 1rem);
+  margin: 1rem;
+  max-height: 18em;
+
+  .card-title {
+    color: #03586a;
+    font-size: 24px;
+  }
+
+  .avaliacaoNota {
+    font-weight: bold;
+    color: #03586a;
+  }
+
+  .icon {
+    color: #03586a;
+    margin-right: 0.4rem;
+  }
+
+  .trashIcon {
+    cursor: pointer;
+  }
+}

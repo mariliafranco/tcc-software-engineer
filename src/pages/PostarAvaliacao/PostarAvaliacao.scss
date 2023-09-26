@@ -1,0 +1,60 @@
+.postarAvaliacaoContainer {
+  margin-top: 2em;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+
+  .avaliacaoFormContainer {
+    align-content: center;
+
+    .avaliacaoForm {
+      padding: 3em 3.5em 3em;
+      margin: 2em 30% 0.8em;
+      background-color: #d9d9d961;
+      border-radius: 0.5em;
+
+      label {
+        color: #03586a;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .avaliacaoFormDiv {
+    margin-top: 0.3em;
+
+    .avaliacaoFormInput {
+      border-radius: 0.2em;
+      opacity: 1;
+      background: hsl(0, 0%, 75%);
+      border: none;
+    }
+
+    .inputIcon {
+      color: #03586a;
+    }
+  }
+
+  .avaliacaoFormInputGroup {
+    display: flex;
+    justify-content: center;
+  }
+
+  .highlightedText {
+    color: #03586a;
+  }
+
+  .submitReviewButton {
+    background-color: #03586a;
+    border-radius: 4em;
+    color: white;
+    font-size: 14px;
+    line-height: 2em;
+    width: 8em;
+  }
+
+  .success-message {
+    color: green;
+    font-weight: bold;
+  }
+}

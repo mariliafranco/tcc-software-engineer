@@ -1,0 +1,16 @@
+.footer {
+  background-color: #03586a;
+  /* Remove position: fixed; and bottom: 0; from your existing .footer styles */
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  z-index: 1000;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer p {
+  font-size: 14px;
+  color: white;
+  margin: 10px 0; /* consolidated margins for better spacing */
+}
